@@ -15,7 +15,7 @@ export default function Movies() {
   const [movies, setMovies] = useState([]);
   const [error, setError] = useState("");
   const [genres, setGenres] = useState([]);
-
+  // Added comment 
   //Declare Favourites and Watched arrays
   const [favourites, setFavourites] = useState(() => {
     const storedFavourites = localStorage.getItem("favourites");
