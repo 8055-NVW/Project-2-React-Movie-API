@@ -1,14 +1,11 @@
 import { Outlet } from "react-router-dom";
 
-//Import the custom components here
+//custom components
 import Navbar from "./components/subcomponents/Navbar";
 import Footer from "./components/subcomponents/Footer";
 
 export default function Root() {
 
-  
-
-  
   return (
     <div className="d-flex flex-column min-vh-100">
       <Navbar />

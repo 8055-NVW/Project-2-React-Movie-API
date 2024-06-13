@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import Root from './Root.jsx'
-//Import page specific components 
+//Page specific components 
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 
 
@@ -20,7 +20,6 @@ import Watched from './components/Watched.jsx';
 
 
 //Router (This is for the page routing)
-
 const router = createBrowserRouter([
   {
     path: '/',
